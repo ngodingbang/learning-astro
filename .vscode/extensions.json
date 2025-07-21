@@ -1,4 +1,14 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "docker.docker",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "github.vscode-github-actions",
+    "ms-azuretools.vscode-docker",
+    "yzhang.markdown-all-in-one"
+  ],
   "unwantedRecommendations": []
 }

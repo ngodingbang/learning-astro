@@ -1,52 +1,63 @@
-# Astro Starter Kit: Basics
+# NgodingBang Learning Astro
 
-```sh
-pnpm create astro@latest -- --template basics
+[![License](https://shields.io/github/license/ngodingbang/learning-astro 'License')](LICENSE.md)
+
+Learning Astro is a learning project to learn Astro framework.
+
+## Table of Contents
+
+- [NgodingBang Learning Astro](#ngodingbang-learning-astro)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Tech Stack](#tech-stack)
+  - [Installation](#installation)
+  - [Commands](#commands)
+  - [Author](#author)
+  - [Changelog](#changelog)
+  - [License](#license)
+
+## Requirements
+
+- [![Node.js](https://img.shields.io/badge/Node.js%2022.17.1-43853D?logo=node.js&logoColor=white 'Node.js')](https://nodejs.org)
+- [![pnpm](https://img.shields.io/badge/pnpm_10.13.1-F69220?logo=pnpm&logoColor=white 'pnpm')](https://pnpm.io)
+
+## Tech Stack
+
+- [![Astro](https://img.shields.io/badge/Astro_5.12.0-000000?logo=astro&logoColor=white 'Astro')](https://astro.build)
+- [![TypeScript](https://img.shields.io/badge/TypeScript_5.8.3-3178C6?logo=typescript&logoColor=white 'TypeScript')](https://www.typescriptlang.org)
+
+## Installation
+
+To get started using this app in your localhost, simply paste this command into your terminal:
+
+```bash
+git clone https://github.com/ngodingbang/learning-astro
+pnpm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Installs dependencies                            |
 | `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm lint`            | Lints your code with ESLint                      |
+| `pnpm format`          | Formats your code with Prettier                  |
 | `pnpm build`           | Build your production site to `./dist/`          |
 | `pnpm preview`         | Preview your build locally, before deploying     |
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Author
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- NgodingBang - [@ngodingbang](https://github.com/ngodingbang)
+
+## Changelog
+
+You can read the changelog [here](CHANGELOG.md).
+
+## License
+
+You can read the license [here](LICENSE.md).
